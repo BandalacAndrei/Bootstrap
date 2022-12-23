@@ -4,40 +4,401 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>MOODY STORE</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+  <div class="container">
+<section>
+  <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <h1>MOODY STUDIO</h1>
+      <div class="d-flex gap-4 align-items-center">
+        <a href=""><img src="img/search.svg" alt=""></a>
+        <a href=""><img src="img/man.svg" alt=""></a>
+        <a href=""><img src="img/bascket.svg" alt=""></a>
+        <a href=""><img src="img/heart.svg" alt=""></a>
+      </div>
+    </div>
+  </nav>
+</section>
+<section class="nav1 ">
+  <ul class="nav justify-content-center py-3 ">
+    <li class="nav-item">
+      <a class="nav-link active text-dark" aria-current="page" href="#">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark"  href="#">STORE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark" href="#">ACCESSORIES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark"href="#">BRAND</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark"href="#">PAGES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark"href="#">ABOUT US</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark"href="#">NEWS </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark"href="#">CONTACT US  </a>
+    </li>
+  </ul>
+</section>
+<section>
+  <div class="d-flex justify-content-between align-items-center  ">
+    <figure class="p-4 d-flex">
+    <img src="img/fura.svg" alt="logo">
+    <figcaption class="p-2">FREE SHIPPING</figcaption>
+  </figure>
+  <figure class="p-4 d-flex">
+    <img src="img/cash-back.svg" alt="logo">
+    <figcaption class="p-2">100% MONEY BACK</figcaption>
+</figure>
+<figure class="p-4 d-flex">
+  <img src="img/headphones.svg" alt="logo">
+  <figcaption class="p-2">SUPPORT 24/7</figcaption>
+</figure>
+  </div>
+</section>
+<section class="container-fluid">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+  <div id="hot-deal" class="d-flex align-items-center ">
+    <img src="img/chair-hot.png" class="img-fluid" alt="">
+    <div class="card col-md">
+          <h2>HOT DEALS THIS WEEK</h2> 
+          <p  id="sale-up">SALE UP 50% <br>MODERN FURNITURE</p>
+          <button type="button" class="btn btn-outline-secondary">VIEW NOW</button>
+    </div>
+  </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<section>
+  <div class=" container text-center first-products">
+    <div class="row">
+      <div class="d-flex align-items-center col">
+        <img src="img/chair.png" class="img-fluid" alt="">
+        <div class="card">
+          <p>INY VINTAGE CHAIR</p>
+          <button type="button" class="btn btn-outline-secondary">VIEW DETAILS</button>
         </div>
-      </nav
+      </div>
+      <div class="d-flex align-items-center col" id="urna">
+        <img src="img/urn.png" class="img-fluid" alt="">
+        <div class="card">
+          <p>LARGE TERRACOTA<br>VASE</p>
+          <button type="button" class="btn btn-outline-secondary">VIEW DETAILS</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="d-flex container">
+<div class="card" id="decor-bg" style="width: 18rem;">
+  <img src="img/decor.png" class="card-img-top" alt="vaza" id="vaza">
+  <div class="card-body">
+    <h5 class="card-title">DECOR</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <a href="#" class="btn btn-primary" id="button-decor">VIEW ALL</a>
+  </div>
+</div>
+<div class="container text-center products">
+  <div class="row">
+    <div class="col">
+      <div>
+      <img src="img/prod1.png" alt="">
+      <p class="name-product fs-3 fw-bold">Linen Beach Towel</p>
+      <div>
+        <img src="img/gold-star.svg" alt="">
+        <img src="img/gold-star.svg" alt="">
+        <img src="img/gold-star.svg" alt="">
+        <img src="img/gold-star.svg" alt="">
+        <img src="img/empty-star.svg" alt="">
+      </div>
+      <div class="price fw-bold">30$</div>
+      </div>
+    </div>
+    <div class="col">
+      <img src="img/prod2.png" alt="">
+      <p class="name-product fs-3 fw-bold">Square Clear Glass Box</p>
+      <div>
+        <img src="img/gold-star.svg" alt="">
+        <img src="img/gold-star.svg" alt="">
+        <img src="img/gold-star.svg" alt="">
+        <img src="img/gold-star.svg" alt="">
+        <img src="img/empty-star.svg" alt="">
+      </div>
+      <div class="price fw-bold">45$</div>
+    </div>
+    <div class="col">
+      <img src="img/prod3.png" alt="">
+      <p class="name-product fs-3 fw-bold">Small Ceramic Plates</p>
+      <div>
+        <img src="img/gold-star.svg" alt="">
+        <img src="img/gold-star.svg" alt="">
+        <img src="img/gold-star.svg" alt="">
+        <img src="img/gold-star.svg" alt="">
+        <img src="img/empty-star.svg" alt="">
+      </div>
+      <div class="price fw-bold">15$</div>
+    </div>
+  </div>
+</div>
+</section>
+<section class="container">
+  <div class="row">
+  <div class="col">
+    <div>
+    <img src="img/prod4.png" alt="">
+    <p class="name-product fs-3 fw-bold">Large Clear Glass Box</p>
+    <div>
+      <img src="img/gold-star.svg" alt="">
+      <img src="img/gold-star.svg" alt="">
+      <img src="img/gold-star.svg" alt="">
+      <img src="img/gold-star.svg" alt="">
+      <img src="img/empty-star.svg" alt="">
+    </div>
+    <div class="price fw-bold">30$</div>
+    </div>
+  </div>
+  <div class="col">
+    <img src="img/prod5.png" alt="">
+    <p class="name-product fs-3 fw-bold">Round Jute Placemat
+    </p>
+    <div>
+      <img src="img/gold-star.svg" alt="">
+      <img src="img/gold-star.svg" alt="">
+      <img src="img/gold-star.svg" alt="">
+      <img src="img/empty-star.svg" alt="">
+      <img src="img/empty-star.svg" alt="">
+    </div>
+    <div class="price fw-bold">9$</div>
+  </div>
+  <div class="col">
+    <img src="img/prod6.png" alt="">
+    <p class="name-product fs-3 fw-bold">Metal Wire Basket</p>
+    <div>
+      <img src="img/gold-star.svg" alt="">
+      <img src="img/gold-star.svg" alt="">
+      <img src="img/gold-star.svg" alt="">
+      <img src="img/gold-star.svg" alt="">
+      <img src="img/empty-star.svg" alt="">
+    </div>
+    <div class="price fw-bold">17$</div>
+  </div>
+  <div class="card" id="decor-bg" style="width: 18rem;">
+    <img src="img/corzina.png" class="card-img-top" alt="vaza" id="vaza">
+    <div class="card-body">
+      <h5 class="card-title">BOHO CHIC</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <a href="#" class="btn btn-primary" id="button-decor">VIEW ALL</a>
+    </div>
+  </div>
+</div>
+</section>
+<section id="section-with-bed">
+  <div class="card text-bg-dark">
+    <img src="img/background-bed.png" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <div class="card bed-card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">BEDSHEET SETS</h5>
+          <div class="d-flex"><p id="recent-price">$50.00</p>&nbsp;&nbsp;<p id="old-price">$220.00</p></div>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#" class="btn btn-primary" id="button-decor">VIEW DETAILS</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-grid">
+  <div class="fw-bold fs-2">TOP RATING</div>
+  <div class="container text-center">
+    <div class="row row-cols-3">
+      <div class="col d-flex">
+        <div class="d-flex">
+          <img src="img/thing1.png" alt="">
+        </div>
+        <div id="name-price">  
+        <div class="fw-bold fs-3">Traywith Foot</div>
+        <div class="d-flex">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/empty-star.svg" alt="">
+        </div>
+        <div class="price">55$</div>
+      </div>
+      </div>
+      <div class="col d-flex">
+        <div class="d-flex">
+          <img src="img/thing2.png" alt="">
+        </div>
+        <div id="name-price">  
+        <div class="fw-bold fs-3">Twill Seat Cushion</div>
+        <div class="d-flex">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/empty-star.svg" alt="">
+        </div>
+        <div class="price">12$</div>
+      </div>
+      </div>
+      <div class="col d-flex">
+        <div class="d-flex">
+          <img src="img/thing3.png" alt="">
+        </div>
+        <div id="name-price">  
+        <div class="fw-bold fs-3">Fluted Beverage Glass</div>
+        <div class="d-flex">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/empty-star.svg" alt="">
+        </div>
+        <div class="price">5$</div>
+      </div>
+      </div>
+      <div class="col d-flex">
+        <div class="d-flex">
+          <img src="img/thing4.png" alt="">
+        </div>
+        <div id="name-price">  
+        <div class="fw-bold fs-3">Ceramic Egg Cup</div>
+        <div class="d-flex">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/empty-star.svg" alt="">
+        </div>
+        <div class="price">10$</div>
+      </div>
+      </div>
+      <div class="col d-flex">
+        <div class="d-flex">
+          <img src="img/thing5.png" alt="">
+        </div>
+        <div id="name-price">  
+        <div class="fw-bold fs-3">Small Bamboo Box</div>
+        <div class="d-flex">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/empty-star.svg" alt="">
+        </div>
+        <div class="price">10$</div>
+      </div>
+      </div>
+      <div class="col d-flex">
+        <div class="d-flex">
+          <img src="img/thing6.png" alt="">
+        </div>
+        <div id="name-price">  
+        <div class="fw-bold fs-3">Metal Cutlery Basket</div>
+        <div class="d-flex">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/empty-star.svg" alt="">
+        </div>
+        <div class="price">15$</div>
+      </div>
+      </div>
+      <div class="col d-flex">
+        <div class="d-flex">
+          <img src="img/thing7.png" alt="">
+        </div>
+        <div id="name-price">  
+        <div class="fw-bold fs-3">4-pack Ceramic Cups</div>
+        <div class="d-flex">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/empty-star.svg" alt="">
+        </div>
+        <div class="price">55$</div>
+      </div>
+      </div>
+      <div class="col d-flex">
+        <div class="d-flex">
+          <img src="img/thing8.png" alt="">
+        </div>
+        <div id="name-price">  
+        <div class="fw-bold fs-3">2-pack Linen Napkins</div>
+        <div class="d-flex">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/empty-star.svg" alt="">
+        </div>
+        <div class="price">14$</div>
+      </div>
+      </div>
+      <div class="col d-flex">
+        <div class="d-flex">
+          <img src="img/thing9.png" alt="">
+        </div>
+        <div id="name-price">  
+        <div class="fw-bold fs-3">Glazed Stoneware Plate</div>
+        <div class="d-flex">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/gold-star.svg" alt="">
+          <img src="img/empty-star.svg" alt="">
+        </div>
+        <div class="price">18$</div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div id="btn-load">  
+    <button type="button" class="btn btn-outline-dark " >Load more products
+    </button>
+  </div>
+</section>
+<section id="last-section">
+  <div>
+    <div class="container">
+      <div class="d-md-flex justify-content-between align-items-center">
+          <div class="d-flex flex-column"> 
+          <h3 class="mb-3 mb-md-0">SING UP FOR THE NEWSLETTER</h3>
+          <h6>Subscribe for the latest stories and promotions</h6>
+          </div>
+          <div class="input-group news-input">
+              <input type="text" class="form-control" placeholder="Enter your e-mail address">
+              <button class="btn btn-dark btn-lg px-4" type="button"><img src="img/plic.svg" alt=""></button>
+            </div>
+      </div>
+  </div>
+  </div>
+</section>
+</div>
+<footer class="py-5 bg-dark text-white text-center position-relative">
+  <div class="container">
+      <p class="fs-3 fw-bold">Copyright &copy; 2022</p>
+  </div>
+</footer>
 </body>
 </html>
